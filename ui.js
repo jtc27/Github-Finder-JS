@@ -16,19 +16,22 @@ class UI {
           </div>
 
           <div class='col-md-9'>
-            <span class='badge badge-primary'>Public Repos: ${user.public_repos}</span>
-            <span class='badge badge-secondary'>Public Gists: ${user.public_gists}</span>
-            <span class='badge badge-success'>Followers: ${user.followers}</span>
-            <span class='badge badge-info'>Following: ${user.following}</span>
+            <span class="badge bg-warning"><b>Username: ${user.login}</b></span>
+            <span class="badge bg-primary">Public Repos: ${user.public_repos}</span>
+            <span class='badge bg-secondary'>Public Gists: ${user.public_gists}</span>
+            <span class='badge bg-success'>Followers: ${user.followers}</span>
+            <span class='badge bg-info'>Following: ${user.following}</span>
             <br><br>
 
-            <ul class='list-group'>
-              <li class = 'list-group-item'>User Name: <a href ='${user.html_url}' target="_blank">${user.login}</a> </li>
+            <ul class="list-group">
+              <li class ="list-group-item">Github link: <a href ='${user.html_url}' target="_blank">${user.html_url}</a> </li>
               <li class = 'list-group-item'>Company: ${user.company} </li>
               <li class = 'list-group-item'>Website/Blog: ${user.blog} </li>
               <li class = 'list-group-item'>Location: ${user.location} </li>
               <li class = 'list-group-item'>Member Since: ${user.created_at} </li>
             </ul>
+
+            
 
           </div>
 
