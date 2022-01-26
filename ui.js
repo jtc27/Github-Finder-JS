@@ -26,7 +26,7 @@ class UI {
             <ul class="list-group">
               <li class ="list-group-item">Github link: <a href ='${user.html_url}' target="_blank">${user.html_url}</a> </li>
               <li class = 'list-group-item'>Company: ${user.company} </li>
-              <li class = 'list-group-item'>Website/Blog: ${user.blog} </li>
+              <li class = 'list-group-item'>Website: <a href ='https://${user.blog}' target="_blank">${user.blog}</a> </li>
               <li class = 'list-group-item'>Location: ${user.location} </li>
               <li class = 'list-group-item'>Member Since: ${user.created_at} </li>
             </ul>
