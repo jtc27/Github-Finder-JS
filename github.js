@@ -1,3 +1,5 @@
+//fetch data from github
+
 class Github {
   constructor(){
     this.client_id = '4cae939f309e2b600f6a';
